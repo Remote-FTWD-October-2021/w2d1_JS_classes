@@ -1,21 +1,10 @@
 
 
 // NOMBRES
-// Santi
-// Nacho
-// Jose Gutierrez
-// Nerea
-//Aarón
-// Federico Altava
-// Federico Gómez
-//Guillem
-//Tatiana
-//Rocio
-//Raquel 
 //Fernando
-// Nando 😬
-//José Luis
-
+//Guillem
+// Jose Gutierrez
+// Nerea                                          
 class MyFirstClass {
 
 
@@ -126,7 +115,7 @@ const other = new Person(20, 20, {
 })
 
 const prueba = new Elf(200, 50)
-console.log(prueba)
+// console.log(prueba)
 
 
 // valores fijos
@@ -136,3 +125,51 @@ console.log(prueba)
 
 const animals = new Array('dog', 'cat', 'jaguar')
 
+
+//TIMEOUT
+
+// setTimeout(()=>{
+//   console.log('IRONHACK')
+// }, 1000)
+
+// console.log('javascript')
+
+
+// //INTERVAL
+
+// const myInterval = setInterval(()=>{
+//   console.log('perro')
+// }, 1000)
+
+// setTimeout(()=>{
+//   clearInterval(myInterval)
+// }, 5000)
+
+
+
+
+// class Obstacle {
+//   constructor(color){
+//     this.color = color
+//   }
+
+//   move(){
+//     setInterval(()=>{
+//       console.log(this)
+//     }, 500)
+//   }
+// }
+
+// const firstObstacle = new Obstacle('red')
+
+// firstObstacle.move()
+
+setTimeout(()=>{
+  console.log('B')
+}, 1000)
+
+setTimeout(()=>{
+  console.log('A')
+}, 800)
+
+console.log('C')
