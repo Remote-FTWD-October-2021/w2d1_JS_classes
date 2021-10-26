@@ -1,0 +1,63 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 9vw;
+}
+
+
+.my-div {
+  /* padding: 100px; */
+  border: 5px solid black;
+  margin: 1px;
+  width: 200px;
+  height: 200px;
+}
+
+.coral {
+  background-color: coral;
+}
+
+.aqua{
+  background-color:aqua;
+}
+
+.aliceblue{
+  background-color:aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.imagen-pin{
+  border: 5px solid black;
+  padding: 20px;
+  background-color:darkgray;
+  width: 84vw;
+}
+
+/* @media (min-width: 998px){
+
+} */
+
+@media (min-width: 700px){
+  h1 {
+    font-size: 3rem;
+  }
+
+  .container{
+    flex-direction: row;
+  }
+
+  .imagen-pin {
+    width: inherit;
+  }
+
+}
